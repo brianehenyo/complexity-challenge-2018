@@ -1,14 +1,22 @@
 # Complexity Challenge 2018
 by [Briane Paul Samson](https://brianesamson.com)
 
-## Agents & Strategies
+This is my submission for [Complexity Explorer's](https://www.complexityexplorer.org/) Complexity Challenge 2018.
+
+## Agent Strategies
+
+**No Heuristics**
 - Stable - Always on the stable pool. Risk averse
 - Sticky - Stay in the same pool as the initial
 - Random - Doesn’t look at prior payoffs
 - Always new - Always change pool
+
+**Looks at the # of agents**
 - Bandwagon - Always choose a pool that has the most number of agents in the previous time step
 - Safe - Always choose a pool that had the most agents with payoffs in the previous time step
 - Robert Frost - Always choose the least chosen pool (based on average number of agents that have previously chosen it)
+
+**Looks at payoffs**
 - High Roller - Always choose a pool with the highest payoff in the previous time step
 - Opportunistic - Always choose a pool with the highest average payoff
 
