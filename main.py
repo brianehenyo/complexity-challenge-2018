@@ -274,73 +274,108 @@ class OpportunisticAgent(Agent):
 
 def runExperiment(n, runs, n_agents, strategy_choices, strategy_p):
     global wealth_per_strat
-    agents = []
+    repetitions = 5
 
-    print(strategy_p)
+    # n_per_strat = dict.fromkeys(per_strat, 0)
 
-    n_per_strat = dict.fromkeys(per_strat, 0)
+    # agent_num = 1
+    # for i in range(len(strategy_choices)):
+    #     for j in range(strategy_p[i]):
+    #         new_agent = strategy_choices[i](int(agent_num))
+    #         n_per_strat[new_agent.strat_type] += 1
+    #         agents.append(new_agent)
+    #         agent_num += 1
 
-    for i in range(n_agents):
-        new_agent = np.random.choice(strategy_choices, p=strategy_p)(int(i))
-        n_per_strat[new_agent.strat_type] += 1
-        agents.append(new_agent)
+    # # for i in range(n_agents):
+    # #     new_agent = np.random.choice(strategy_choices, p=strategy_p)(int(i))
+    # #     n_per_strat[new_agent.strat_type] += 1
+    # #     agents.append(new_agent)
 
-    experiments.append({
-        "exp_num": n,
-        "runs": runs,
-        "n_agents": n_agents,
-        "n_per_strat": n_per_strat,
-        "tau": tau
-    })
+    # experiments.append({
+    #     "exp_num": n,
+    #     "runs": runs,
+    #     "n_agents": n_agents,
+    #     "n_per_strat": n_per_strat,
+    #     "tau": tau
+    # })
 
-    for r in range(runs):
-        # All agents choose a pool
-        for agent in agents:
-            agent.choosePool()
+    for rep in range(repetitions):
+        agents = []
+        n_per_strat = dict.fromkeys(per_strat, 0)
+
+        print(strategy_choices)
+
+        agent_num = 1
+        for i in range(len(strategy_choices)):
+            for j in range(strategy_p[i]):
+                new_agent = strategy_choices[i](int(agent_num))
+                n_per_strat[new_agent.strat_type] += 1
+                agents.append(new_agent)
+                agent_num += 1
+
+        # for i in range(n_agents):
+        #     new_agent = np.random.choice(strategy_choices, p=strategy_p)(int(i))
+        #     n_per_strat[new_agent.strat_type] += 1
+        #     agents.append(new_agent)
+
+        experiments.append({
+            "exp_num": n,
+            "rep": rep,
+            "runs": runs,
+            "n_agents": n_agents,
+            "n_per_strat": n_per_strat,
+            "tau": tau
+        })
+
+        for r in range(runs):
+            # All agents choose a pool
+            for agent in agents:
+                agent.choosePool()
+                
+            # Pools start payoff
+            stable_pool.payAgents()
+            low_pool.payAgents()
+            high_pool.payAgents()
+
+            # Compute for total wealth in this timestep
+            total_wealth = 0
+            for agent in agents:
+                total_wealth += agent.wealth
+
+            row = {
+                "exp_num": int(n),
+                "rep": int(rep),
+                "timestep": int(r),
+                "stable_payoff": int(stable_pool.hist_payoff[len(stable_pool.hist_payoff)-1]),
+                "low_payoff": int(low_pool.hist_payoff[len(low_pool.hist_payoff)-1]),
+                "high_payoff": int(high_pool.hist_payoff[len(high_pool.hist_payoff)-1]),
+                "stable_n_agents": int(stable_pool.hist_n_agents[len(stable_pool.hist_n_agents)-1]),
+                "low_n_agents": int(low_pool.hist_n_agents[len(low_pool.hist_n_agents)-1]),
+                "high_n_agents": int(high_pool.hist_n_agents[len(high_pool.hist_n_agents)-1]),
+                "total_wealth": int(total_wealth)
+            }
+
+            for key in n_per_strat.keys():
+                row.update({"n_agent_" + str(key) : int(n_per_strat[key])})
+
+            for key in wealth_per_strat.keys():
+                row.update({"wealth_" + str(key) : int(wealth_per_strat[key])})
+
+            for key in stable_pool.n_per_strat.keys():
+                row.update({"stable_n_" + str(key) : int(stable_pool.n_per_strat[key])})
             
-        # Pools start payoff
-        stable_pool.payAgents()
-        low_pool.payAgents()
-        high_pool.payAgents()
+            for key in low_pool.n_per_strat.keys():
+                row.update({"low_n_" + str(key) : int(low_pool.n_per_strat[key])})
 
-        # Compute for total wealth in this timestep
-        total_wealth = 0
-        for agent in agents:
-            total_wealth += agent.wealth
+            for key in high_pool.n_per_strat.keys():
+                row.update({"low_n_" + str(key) : int(high_pool.n_per_strat[key])})
 
-        row = {
-            "exp_num": int(n),
-            "timestep": int(r),
-            "stable_payoff": int(stable_pool.hist_payoff[len(stable_pool.hist_payoff)-1]),
-            "low_payoff": int(low_pool.hist_payoff[len(low_pool.hist_payoff)-1]),
-            "high_payoff": int(high_pool.hist_payoff[len(high_pool.hist_payoff)-1]),
-            "stable_n_agents": int(stable_pool.hist_n_agents[len(stable_pool.hist_n_agents)-1]),
-            "low_n_agents": int(low_pool.hist_n_agents[len(low_pool.hist_n_agents)-1]),
-            "high_n_agents": int(high_pool.hist_n_agents[len(high_pool.hist_n_agents)-1]),
-            "total_wealth": int(total_wealth)
-        }
+            exp_runs.append(row)
 
-        for key in n_per_strat.keys():
-            row.update({"n_agent_" + str(key) : int(n_per_strat[key])})
-
-        for key in wealth_per_strat.keys():
-            row.update({"wealth_" + str(key) : int(wealth_per_strat[key])})
-
-        for key in stable_pool.n_per_strat.keys():
-            row.update({"stable_n_" + str(key) : int(stable_pool.n_per_strat[key])})
-        
-        for key in low_pool.n_per_strat.keys():
-            row.update({"low_n_" + str(key) : int(low_pool.n_per_strat[key])})
-
-        for key in high_pool.n_per_strat.keys():
-            row.update({"low_n_" + str(key) : int(high_pool.n_per_strat[key])})
-
-        exp_runs.append(row)
-
-        stable_pool.reset()
-        low_pool.reset()
-        high_pool.reset()
-        wealth_per_strat = dict.fromkeys(per_strat, 0)
+            stable_pool.reset()
+            low_pool.reset()
+            high_pool.reset()
+            wealth_per_strat = dict.fromkeys(per_strat, 0)
     
     # saveExperimentsToCSV(n, runs, n_agents, n_per_strat, exp_runs)
 
@@ -380,33 +415,33 @@ pool_dtype = [('pool', int), ('hist_payoffs', int), ('hist_n_agents', int)]
 strat_list = [StableAgent, StickyAgent, RandomAgent, AlwaysNewAgent, BandwagonAgent, SafeAgent, FrostAgent, HighRollerAgent, OpportunisticAgent]
 experiment_settings = []
 
-for s in strat_list:
-    experiment_settings.append({"agent_types": [s], "agent_p": [1]})
+# for s in strat_list:
+#     experiment_settings.append({"agent_types": [s], "agent_p": [100]})
 
-combi = combinations(strat_list, 2)
-for c in list(combi):
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .5]})
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.25, .75]})
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.75, .25]})
-
-combi = combinations(strat_list, 3)
-for c in list(combi):
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [1/3, 1/3, 1/3]})
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .25, .25]})
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.25, .5, .25]})
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.25, .25, .5]})
-
-combi = combinations(strat_list, 4)
-for c in list(combi):
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.25, .25, .25, .25]})
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .5/3, .5/3, .5/3]})
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/3, .5, .5/3, .5/3]})
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/3, .5/3, .5, .5/3]})
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/3, .5/3, .5/3, .5]})
-
-# combi = combinations(strat_list, 5)
+# combi = combinations(strat_list, 2)
 # for c in list(combi):
-#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.20, .20, .20, .20, .20]})
+#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [50, 50]})
+    # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.25, .75]})
+    # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.75, .25]})
+
+# combi = combinations(strat_list, 3)
+# for c in list(combi):
+#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [33, 33, 34]})
+    # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .25, .25]})
+    # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.25, .5, .25]})
+    # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.25, .25, .5]})
+
+# combi = combinations(strat_list, 4)
+# for c in list(combi):
+#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [25, 25, 25, 25]})
+    # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .5/3, .5/3, .5/3]})
+    # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/3, .5, .5/3, .5/3]})
+    # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/3, .5/3, .5, .5/3]})
+    # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/3, .5/3, .5/3, .5]})
+
+combi = combinations(strat_list, 5)
+for c in list(combi):
+    experiment_settings.append({"agent_types": np.array(c), "agent_p": [20, 20, 20, 20, 20]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .5/4, .5/4, .5/4, .5/4]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/4, .5, .5/4, .5/4, .5/4]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/4, .5/4, .5, .5/4, .5/4]})
@@ -415,7 +450,7 @@ for c in list(combi):
 
 # combi = combinations(strat_list, 6)
 # for c in list(combi):
-#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [1/6, 1/6, 1/6, 1/6, 1/6, 1/6]})
+#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [17, 17, 17, 17, 16, 16]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .1, .1, .1, .1, .1]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.1, .5, .1, .1, .1, .1]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.1, .1, .5, .1, .1, .1]})
@@ -425,7 +460,7 @@ for c in list(combi):
 
 # combi = combinations(strat_list, 7)
 # for c in list(combi):
-#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [1/7, 1/7, 1/7, 1/7, 1/7, 1/7, 1/7]})
+#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [15, 15, 14, 14, 14, 14, 14]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .5/6, .5/6, .5/6, .5/6, .5/6, .5/6]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/6, .5, .5/6, .5/6, .5/6, .5/6, .5/6]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/6, .5/6, .5, .5/6, .5/6, .5/6, .5/6]})
@@ -436,7 +471,7 @@ for c in list(combi):
 
 # combi = combinations(strat_list, 8)
 # for c in list(combi):
-#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [1/8, 1/8, 1/8, 1/8, 1/8, 1/8, 1/8, 1/8]})
+#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [13, 13, 13, 13, 12, 12, 12, 12]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .5/7, .5/7, .5/7, .5/7, .5/7, .5/7, .5/7]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/7, .5, .5/7, .5/7, .5/7, .5/7, .5/7, .5/7]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/7, .5/7, .5, .5/7, .5/7, .5/7, .5/7, .5/7]})
@@ -448,7 +483,7 @@ for c in list(combi):
 
 # combi = combinations(strat_list, 9)
 # for c in list(combi):
-#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [1/9, 1/9, 1/9, 1/9, 1/9, 1/9, 1/9, 1/9, 1/9]})
+#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [12, 11, 11, 11, 11, 11, 11, 11, 11]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .5/8, .5/8, .5/8, .5/8, .5/8, .5/8, .5/8, .5/8]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/8, .5, .5/8, .5/8, .5/8, .5/8, .5/8, .5/8, .5/8]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/8, .5/8, .5, .5/8, .5/8, .5/8, .5/8, .5/8, .5/8]})
