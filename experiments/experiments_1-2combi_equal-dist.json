@@ -1,0 +1,4052 @@
+[
+    {
+        "exp_num": 1,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 100,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 1,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 100,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 1,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 100,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 1,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 100,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 1,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 100,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 2,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 100,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 2,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 100,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 2,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 100,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 2,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 100,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 2,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 100,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 3,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 100,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 3,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 100,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 3,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 100,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 3,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 100,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 3,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 100,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 4,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 100,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 4,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 100,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 4,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 100,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 4,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 100,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 4,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 100,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 5,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 100,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 5,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 100,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 5,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 100,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 5,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 100,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 5,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 100,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 6,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 100,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 6,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 100,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 6,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 100,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 6,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 100,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 6,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 100,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 7,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 100,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 7,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 100,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 7,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 100,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 7,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 100,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 7,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 100,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 8,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 100,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 8,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 100,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 8,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 100,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 8,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 100,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 8,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 100,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 9,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 100
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 9,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 100
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 9,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 100
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 9,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 100
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 9,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 100
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 10,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 10,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 10,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 10,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 10,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 11,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 11,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 11,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 11,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 11,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 12,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 12,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 12,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 12,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 12,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 13,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 13,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 13,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 13,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 13,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 14,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 14,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 14,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 14,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 14,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 15,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 15,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 15,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 15,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 15,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 16,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 16,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 16,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 16,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 16,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 17,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 17,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 17,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 17,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 17,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 50,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 18,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 18,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 18,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 18,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 18,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 19,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 19,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 19,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 19,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 19,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 20,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 20,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 20,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 20,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 20,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 21,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 21,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 21,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 21,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 21,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 22,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 22,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 22,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 22,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 22,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 23,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 23,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 23,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 23,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 23,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 24,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 24,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 24,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 24,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 24,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 50,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 25,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 25,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 25,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 25,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 25,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 26,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 26,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 26,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 26,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 26,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 27,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 27,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 27,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 27,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 27,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 28,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 28,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 28,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 28,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 28,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 29,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 29,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 29,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 29,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 29,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 30,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 30,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 30,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 30,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 30,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 50,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 31,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 31,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 31,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 31,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 31,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 32,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 32,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 32,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 32,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 32,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 33,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 33,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 33,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 33,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 33,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 34,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 34,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 34,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 34,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 34,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 35,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 35,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 35,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 35,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 35,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 50,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 36,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 36,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 36,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 36,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 36,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 37,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 37,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 37,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 37,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 37,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 38,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 38,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 38,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 38,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 38,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 50,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 39,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 39,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 39,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 39,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 39,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 50,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 40,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 40,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 40,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 40,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 40,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 41,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 41,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 41,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 41,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 41,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 42,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 42,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 42,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 42,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 42,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 50,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 43,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 43,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 43,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 43,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 43,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 0
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 44,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 44,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 44,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 44,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 44,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 50,
+            "highroller": 0,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 45,
+        "rep": 0,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 45,
+        "rep": 1,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 45,
+        "rep": 2,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 45,
+        "rep": 3,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    },
+    {
+        "exp_num": 45,
+        "rep": 4,
+        "runs": 100,
+        "n_agents": 50,
+        "n_per_strat": {
+            "stable": 0,
+            "sticky": 0,
+            "random": 0,
+            "safe": 0,
+            "alwaysnew": 0,
+            "frost": 0,
+            "highroller": 50,
+            "bandwagon": 0,
+            "opportunistic": 50
+        },
+        "tau": 1
+    }
+]

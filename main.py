@@ -439,9 +439,9 @@ experiment_settings = []
     # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/3, .5/3, .5, .5/3]})
     # experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/3, .5/3, .5/3, .5]})
 
-combi = combinations(strat_list, 5)
-for c in list(combi):
-    experiment_settings.append({"agent_types": np.array(c), "agent_p": [20, 20, 20, 20, 20]})
+# combi = combinations(strat_list, 5)
+# for c in list(combi):
+#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [20, 20, 20, 20, 20]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .5/4, .5/4, .5/4, .5/4]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/4, .5, .5/4, .5/4, .5/4]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/4, .5/4, .5, .5/4, .5/4]})
@@ -458,9 +458,9 @@ for c in list(combi):
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.1, .1, .1, .1, .5, .1]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.1, .1, .1, .1, .1, .5]})
 
-# combi = combinations(strat_list, 7)
-# for c in list(combi):
-#     experiment_settings.append({"agent_types": np.array(c), "agent_p": [15, 15, 14, 14, 14, 14, 14]})
+combi = combinations(strat_list, 7)
+for c in list(combi):
+    experiment_settings.append({"agent_types": np.array(c), "agent_p": [15, 15, 14, 14, 14, 14, 14]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5, .5/6, .5/6, .5/6, .5/6, .5/6, .5/6]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/6, .5, .5/6, .5/6, .5/6, .5/6, .5/6]})
 #     experiment_settings.append({"agent_types": np.array(c), "agent_p": [.5/6, .5/6, .5, .5/6, .5/6, .5/6, .5/6]})
