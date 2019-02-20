@@ -32,25 +32,21 @@ Since there are 9 different agent strategies, I played around with different com
 
 **Table 1.** Average Total Wealth of Experiments with Only 1 Strategy.
 
+![alt text][1combi]
+
 | Strategy      | Average Total Wealth |
-|------------|-------------------|
+| :------------ | -------------------: |
 | stable        |            10,000.00 |
 | safe          |             9,662.40 |
 | sticky        |             7,328.60 | 
 | bandwagon     |             5,287.40 | 
-| opportunistic |            1,139.40  |
-| random        |            1,015.60  |
-| highroller    |              348.80  |
-| alwaysnew     |              167.20  |
-| frost         |              140.40  |
+| opportunistic |             1,139.40 |
+| random        |             1,015.60 |
+| highroller    |               348.80 |
+| alwaysnew     |               167.20 |
+| frost         |               140.40 |
 
-
-| Priority apples | Second priority | Third priority |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
-
+From Table 1, we can see that the experiment with 100 stable agents got the highest average total wealth because none of the agents were changing pools. 
 
 ### Wealth Over Time
 
@@ -58,3 +54,5 @@ Since there are 9 different agent strategies, I played around with different com
 ### Influence of Diversity of Strategies
 
 Are there generally classes of agent behavior (say, based on what data they use, how they process it, or the agent's overall sophistication) that lead to better performance?
+
+[1combi]: /outputs/total_wealth_1-combi.png "Figure 1"
