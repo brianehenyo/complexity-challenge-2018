@@ -1,9 +1,10 @@
 # Complexity Challenge 2018
 by [Briane Paul Samson](https://brianesamson.com)
 
-This is my submission for [Complexity Explorer's](https://www.complexityexplorer.org/) Complexity Challenge 2018.
+This is my submission for [Complexity Explorer](https://www.complexityexplorer.org/)'s Complexity Challenge 2018.
 
 ## Agent Strategies
+For this challenge, I created 9 agent strategies, grouped into 3 categories. 
 
 **No Heuristics**
 - Stable - Always on the stable pool. Risk averse
@@ -20,8 +21,28 @@ This is my submission for [Complexity Explorer's](https://www.complexityexplorer
 - High Roller - Always choose a pool with the highest payoff in the previous time step
 - Opportunistic - Always choose a pool with the highest average payoff
 
-## Analysis
-- What general behaviors arise in the system? 
-- How does the wealth of the agents change over time? 
+## Environment Setup and Experiments
+For my challenge solution, each experiment has 100 agents and run for 100 timesteps. Because there is randomness in the behavior of some agent strategies, each experiment is repeated 5 times and the average total wealth is used for analysis.
+
+Since there are 9 different agent strategies, I played around with different combinations. Aside from running experiments where all agents follow the same strategy, I also run experiments that had 2 to 9 combinations of strategies deployed, with equal distributions. For example, there are experiments with 50-50 random and safe agents, and 33-33-34 random, sticky and safe agents. Overall, there are 511 experiments and in the following sections, we will look at some of the significant behaviors that emerged.
+
+## Results & Analysis
+
+### General Behaviors
+| Strategy | Average Total Wealth |
+| --- | ---* |
+| stable | 10,000.00 |
+| safe | 9,662.40 |
+| sticky | 7,328.60 | 
+| bandwagon | 5,287.40 | 
+| opportunistic | 1,139.40  |
+| random | 1,015.60  |
+| highroller | 348.80  |
+| alwaysnew | 167.20  |
+| frost | 140.40  |
+
+### Wealth Over Time? 
+
+
 - How does the diversity of strategies influence the dynamics of the system?
 - Are there generally classes of agent behavior (say, based on what data they use, how they process it, or the agent's overall sophistication) that lead to better performance?
