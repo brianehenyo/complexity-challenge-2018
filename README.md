@@ -32,7 +32,7 @@ Since there are 9 different agent strategies, I played around with different com
 
 **Table 1.** Average Total Wealth of Experiments with Only 1 Strategy.
 | Strategy      | Average Total Wealth |
-|:------------|-------------------:|
+|------------|-------------------|
 | stable        |            10,000.00 |
 | safe          |             9,662.40 |
 | sticky        |             7,328.60 | 
