@@ -29,20 +29,25 @@ Since there are 9 different agent strategies, I played around with different com
 ## Results & Analysis
 
 ### General Behaviors
-| Strategy | Average Total Wealth |
-| --- | ---* |
-| stable | 10,000.00 |
-| safe | 9,662.40 |
-| sticky | 7,328.60 | 
-| bandwagon | 5,287.40 | 
-| opportunistic | 1,139.40  |
-| random | 1,015.60  |
-| highroller | 348.80  |
-| alwaysnew | 167.20  |
-| frost | 140.40  |
 
-### Wealth Over Time? 
+**Table 1.** Average Total Wealth of Experiments with Only 1 Strategy.
+| Strategy      | Average Total Wealth |
+| :------------ | -------------------: |
+| stable        |            10,000.00 |
+| safe          |             9,662.40 |
+| sticky        |             7,328.60 | 
+| bandwagon     |             5,287.40 | 
+| opportunistic |            1,139.40  |
+| random        |            1,015.60  |
+| highroller    |              348.80  |
+| alwaysnew     |              167.20  |
+| frost         |              140.40  |
 
 
-- How does the diversity of strategies influence the dynamics of the system?
-- Are there generally classes of agent behavior (say, based on what data they use, how they process it, or the agent's overall sophistication) that lead to better performance?
+
+### Wealth Over Time
+
+
+### Influence of Diversity of Strategies
+
+Are there generally classes of agent behavior (say, based on what data they use, how they process it, or the agent's overall sophistication) that lead to better performance?
