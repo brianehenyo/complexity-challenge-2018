@@ -31,6 +31,7 @@ Since there are 9 different agent strategies, I played around with different com
 ### General Behaviors
 
 **Table 1.** Average Total Wealth of Experiments with Only 1 Strategy.
+
 | Strategy      | Average Total Wealth |
 |------------|-------------------|
 | stable        |            10,000.00 |
