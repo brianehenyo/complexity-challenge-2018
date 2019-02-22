@@ -117,6 +117,12 @@ These experiments were run with just a _tau_ of 1 and the agents never really a 
 
 From these experiments, I saw how the major presence of `stable`, `safe` and or `sticky` agents can outperform any combination of agent strategies because of their conservative nature. I also saw how the impulsiveness of the `random`, `alwaysnew` and `highroller` agents definitely dragged their performance, with most of their combinations never reaching a wealth of 1,000. There are also the balanced `bandwagon` and `opportunistic` strategies that can amplify the effects of whichever class of strategies holds the majority. In a way, we can see that these two strategies promoted cooperation even though the individual wealth of other agents were not known. 
 
+## Code & Dataset
+
+The agent-based model is implemented in Python 3.6.6 and the code are written in `main.py`. 
+
+All experiment outputs like total wealth and population per pool per timestep are saved in CSVs and can be found in the `/experiments` folder. 
+
 ## Appendix
 
 **Total wealth over time for experiments with 2 different agent strategies**
